@@ -1,0 +1,32 @@
+{
+    "name": "Sample graph",
+    "nodes": 
+    {
+
+        "node-A": 
+        {
+            "name": "A",
+            "inputs": 
+            {
+                "B-size": "node-B -> metadata.size"
+            },
+            "metadata": 
+            {
+            "age": 3
+            }
+        },
+        "node-B": 
+        {
+            "inputs": 
+            {
+                "age-of-node-A": "node-A -> metadata.age"
+            },
+            "name": "B",
+            "metadata": 
+            {
+                "age": 10,
+                "size": "90kb"
+            }
+        }
+    }
+}

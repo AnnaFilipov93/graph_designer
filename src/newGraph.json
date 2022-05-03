@@ -1,0 +1,1 @@
+{"name":"Output Graph","nodes":{"node-A":{"name":"A","metadata":{"age":3},"inputs":{"B-size":"node-B -> metadata.size"}},"node-B":{"name":"B","metadata":{"age":10,"size":"90kb"},"inputs":{"age-of-node-A":"node-A -> metadata.age"}},"node-C":{"name":"C","metadata":{"age":15,"size":"1mb"},"inputs":{"B-age":"node-B -> metadata.age"}}}}
